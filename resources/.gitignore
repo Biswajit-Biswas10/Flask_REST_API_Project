@@ -1,0 +1,5 @@
+# Which file i want to excllude to share in repository or commited. 
+.venv
+__pycache__
+.DS_Store
+*.pyc
