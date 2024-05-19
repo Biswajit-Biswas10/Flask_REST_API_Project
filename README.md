@@ -1,1 +1,1 @@
-## This is a simple Project using Flask Using SQLAlchemy
+## This is a simple Project using Flask with SQLAlchemy
