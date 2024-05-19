@@ -34,6 +34,7 @@ def create_app(db_url=None):
     migrate = Migrate(app, db)
     api = Api(app)
 
+
     # app.config["JWT_SECRET_KEY"] = secrets.SystemRandom().getrandbits(128)
     app.config["JWT_SECRET_KEY"] = "biswa"
     jwt = JWTManager(app)
